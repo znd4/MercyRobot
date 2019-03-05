@@ -119,6 +119,6 @@ public class Robot extends TimedRobot {
     @Override
     public void teleopPeriodic() {
         Scheduler.getInstance().run();
-        arcadeDrive.axium.arcadeDrive(oi_mate.joy.getY(Hand.kLeft), oi_mate.joy.getX(Hand.kLeft));
+        arcadeDrive.axium.arcadeDrive(oi_mate.joy.getY(Hand.kLeft), oi_mate.joy.getX(Hand.kRight));
     }
 }
