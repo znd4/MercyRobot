@@ -73,12 +73,12 @@ public class WallE extends Subsystem {
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 
-    public void forward() {
-        arm.setSpeed(.5);
+    public void forward(double speed) {
+        arm.setSpeed(speed);
     }
 
-    public void backward() {
-        arm.setSpeed(-.5);
+    public void backward(double speed) {
+        arm.setSpeed(-speed);
     }
 
     public void stop() {
