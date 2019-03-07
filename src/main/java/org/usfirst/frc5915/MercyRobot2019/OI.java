@@ -57,6 +57,8 @@ public class OI {
     public JoystickButton backButton;
     public JoystickButton xButton;
     public JoystickButton aButton;
+    public JoystickButton bButton;
+    public JoystickButton yButton;
     public JoystickButton rightTriggerButton;
     public JoystickButton leftTriggerButton;
     public XboxController joy;
@@ -92,6 +94,8 @@ public class OI {
         SmartDashboard.putData("Release Ramp", new ReleaseRamp());
         SmartDashboard.putData("BallIn", new BallIn());
         SmartDashboard.putData("BallOut", new BallOut());
+        SmartDashboard.putData("HatchUp", new HatchUp());
+        SmartDashboard.putData("HatchDown", new HatchDown());
         SmartDashboard.putData("RaiseArm", new RaiseArm(joy));
         SmartDashboard.putData("LowerArm", new LowerArm(joy));
 
