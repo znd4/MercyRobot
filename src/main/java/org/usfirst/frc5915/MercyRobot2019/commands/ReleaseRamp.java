@@ -51,12 +51,16 @@ public class ReleaseRamp extends Command {
     // Make this return true when this Command no longer needs to run execute()
     @Override
     protected boolean isFinished() {
+        if (!Robot.oi_mate.shouldReleaseRamp()) {
+            return true;
+        }
         return false;
     }
 
     // Called once after isFinished returns true
     @Override
     protected void end() {
+        Robot.eve.stop();
     }
 
     // Called when another command which requires one or more of the same
