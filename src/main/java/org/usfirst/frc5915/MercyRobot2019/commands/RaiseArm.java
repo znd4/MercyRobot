@@ -45,7 +45,7 @@ public class RaiseArm extends Command {
     // Called repeatedly when this Command is scheduled to run
     @Override
     protected void execute() {
-        Robot.wallE.forward(this.joy.getTriggerAxis(Hand.kLeft));
+        Robot.wallE.forward();
     }
 
     // Make this return true when this Command no longer needs to run execute()
