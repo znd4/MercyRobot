@@ -81,9 +81,9 @@ public class OI {
         startButton = new JoystickButton(joy, 8);
         backButton = new JoystickButton(joy, 7);
         startButton.whileHeld(new ReleaseRamp());
-        rightTriggerButton = new JoystickButton(joy, 6);
+        rightTriggerButton = new JoystickButton(joy, 12);
         rightTriggerButton.whileActive(new LowerArm());
-        leftTriggerButton = new JoystickButton(joy, 5);
+        leftTriggerButton = new JoystickButton(joy, 11);
         leftTriggerButton.whileActive(new RaiseArm());
 
 
