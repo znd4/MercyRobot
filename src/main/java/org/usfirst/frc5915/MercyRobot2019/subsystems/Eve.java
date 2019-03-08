@@ -75,7 +75,7 @@ public class Eve extends Subsystem {
     // here. Call these from Commands.
 
     public void release(){
-        ramp.setSpeed(1.0);
+        ramp.setSpeed(0.1);
     }
 
     public void stop() {
