@@ -8,3 +8,9 @@
   - [ ] [Installing C++ and Java Development Tools](https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/999999-installing-c-and-java-development-tools-for-frc)
   - [ ] [Install Java](https://www.java.com/en/)
   - [ ] [Install WPILib Extension](https://wpilib.screenstepslive.com/s/currentCS/m/java/l/1027060-visual-studio-code-basics-and-the-wpilib-extension)
+
+## Registration info
+Anne email:
+abyrne@mercyed.net
+Address
+1450 Howard

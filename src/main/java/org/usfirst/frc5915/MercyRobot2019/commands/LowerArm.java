@@ -12,8 +12,6 @@
 package org.usfirst.frc5915.MercyRobot2019.commands;
 import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc5915.MercyRobot2019.Robot;
-import edu.wpi.first.wpilibj.XboxController;
-import edu.wpi.first.wpilibj.GenericHID.Hand;
 
 /**
  *

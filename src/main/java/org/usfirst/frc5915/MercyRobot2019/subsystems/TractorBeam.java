@@ -39,11 +39,11 @@ public class TractorBeam extends Subsystem {
   }
 
   public void forward() {
-    lift.setSpeed(0.4);
+    lift.setSpeed(0.2);
   }
 
   public void backward() {
-    lift.setSpeed(-0.4);
+    lift.setSpeed(-0.2);
   }
 
   public void stop() {

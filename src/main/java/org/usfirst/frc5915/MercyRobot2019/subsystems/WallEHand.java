@@ -72,13 +72,14 @@ public class WallEHand extends Subsystem {
 
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
+    //foward=out, backward=in
 
     public void forward() {
-        intake.setSpeed(1.0);
+        intake.setSpeed(0.5);
     }
 
     public void backward() {
-        intake.setSpeed(-1.0);
+        intake.setSpeed(-0.3);
     }
 
     public void stop() {
