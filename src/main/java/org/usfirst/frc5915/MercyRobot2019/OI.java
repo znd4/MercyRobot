@@ -15,8 +15,6 @@ import org.usfirst.frc5915.MercyRobot2019.commands.*;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj.XboxController;
 import edu.wpi.first.wpilibj.buttons.*;
-import org.usfirst.frc5915.MercyRobot2019.subsystems.*;
-import edu.wpi.first.wpilibj.GenericHID.Hand;
 
 
 /**
